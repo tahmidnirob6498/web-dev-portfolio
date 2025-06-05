@@ -1,0 +1,91 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 900px;
+}
+.Name{
+    font-weight: 800;
+    width: 121px;
+    height: 61px;
+    font-size: 90px;
+    margin-left: 500px;
+}
+/* shared style */
+.text-primary{
+    color: #FD6E0A;
+}
+nav ul{
+    display: flex;
+    gap: 53px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 400px;
+}
+nav li{
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 40px;
+}
+.Dark2{color: #474747;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 18px 35px;
+    border-radius: 5px;
+}
+.Greeting{
+    font-size: 90px;
+    font-weight: 400;
+}
+.inform{
+    font-size: 160px;
+    font-weight: bold;
+}
+p{
+    font-size: 36px;
+    line-height: 35px;
+    color: #757575;
+}
+.space{
+    margin-right: 30px;
+}
+.Man{
+    width: 1000px;
+    height: 1200px;
+    margin-right: 300px;
+}
+.Maya{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 330px;
+    
+}
+.Nirob{
+    margin-left: 450px;
+}
+header{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-size: 150px,1750px;
+    background-position: 100px,bottom right;
+    
+}
