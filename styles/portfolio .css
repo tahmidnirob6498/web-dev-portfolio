@@ -85,7 +85,45 @@ p{
 header{
     background-image: url(../images/developer.png),url(../images/header_bg.png);
     background-repeat: no-repeat;
-    background-size: 150px,1750px;
-    background-position: 100px,bottom right;
+    background-size: 180px,1750px;
+    background-position: 100px bottom,bottom right;
     
+}
+.div-head{
+    font-weight: bold;
+    font-size: 70px;
+    text-align: center;
+}
+.div-discription{
+    
+
+    
+}
+.banner-discription{
+    background-color: #FFF8F3;
+    margin: 0 auto;
+    padding: 200px 150px;
+    
+
+
+}
+.main-info{
+    max-width:2000px;
+    margin: 130px auto
+    
+}
+.item-value{
+    font-weight: bold;
+    font-size: 40px;
+    color: #474747;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+
+}
+.banner-border{
+    border: 1px solid black;
+    background-color: #FFFFFF;
+    padding-left: 10px;
 }
