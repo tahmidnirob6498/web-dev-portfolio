@@ -13,6 +13,9 @@
 html {
   font-size: 16px;
 }
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 
 nav{
     display: flex;
@@ -24,7 +27,7 @@ nav{
     font-weight: 800;
     width: 121px;
     height: 61px;
-    font-size: 90px;
+    font-size: 48px;
     margin-left: 500px;
 }
 /* shared style */
@@ -56,11 +59,11 @@ nav li a{
     border-radius: 5px;
 }
 .Greeting{
-    font-size: 90px;
+    font-size: 45px;
     font-weight: 400;
 }
 .inform{
-    font-size: 160px;
+    font-size: 80px;
     font-weight: bold;
 }
 p{
@@ -71,11 +74,14 @@ p{
 .space{
     margin-right: 30px;
 }
-.Man{
-    width: 1000px;
-    height: 1200px;
-    margin-right: 300px;
+.Man {
+  width: 500px;
+  height: auto;
+  margin-right: 50px;
 }
+
+
+
 .Maya{
     display: flex;
     justify-content: space-between;
